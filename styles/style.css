@@ -42,6 +42,11 @@ marquee > span:not(#money-symbol) {
 	flex-direction: column;
 }
 
+#word-display {
+	font-size: xx-large;
+	font-family: "Monaspace";
+}
+
 #keyboard {
 	display: flex;
 	flex-wrap: wrap;
@@ -64,6 +69,7 @@ marquee > span:not(#money-symbol) {
 }
 
 .letter:active {
+	border-color: white;
 	background-color: rgba(100, 100, 100, 0.5);
 }
 
