@@ -1,6 +1,10 @@
 body {
 	margin: 0;
+	height: 100vh;
 	user-select: none;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 a {
@@ -14,15 +18,15 @@ a {
 }
 
 header {
-	position: sticky;
+	position: fixed;
 	top: 0;
+	width: 100%;
+	color: white;
 }
 
 marquee {
-	font-family: Monaspace;
-	font-size: large;
-	border-bottom: 1px solid black;
 	background-color: black;
+	font-family: Monaspace;
 	color: white;
 	user-select: none;
 }
@@ -37,6 +41,7 @@ marquee > span:not(#money-symbol) {
 
 #app {
 	display: flex;
+	height: 50%;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
