@@ -8,5 +8,9 @@ He hecho la estructura y un poco de css, he decidido usar flex para la estructur
 
 He empezado a hacer la logica, voy lento ya que voy recordando cosas anteriores pero tengo una idea bien hecha de como hacer el juego.
 
+## 29/11/2023
+
+He desarollado mejor la logica.
+
 TODO:
 Crear un project en github para poner objetivos y empezar con el mantenimiento del proyecto
