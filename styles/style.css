@@ -47,6 +47,10 @@ marquee > span:not(#money-symbol) {
 	flex-direction: column;
 }
 
+#lifes > span {
+	color: red;
+}
+
 #word-display {
 	font-size: xx-large;
 	font-family: "Monaspace";
